@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:50%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.form-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.create-form,.update-form{
+    width: 100%;
+    margin: 10px auto;
+   
+    flex-direction: column;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.create-form input,.update-form input{
+    width: 90%;
+    padding: 10px;
+    margin:5px auto;
+}
+tr button{
+    padding: 5px 10px;
+}
+thead{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+tbody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#data-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+.list{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+td{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    
+}
+.add-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+th{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit{
+    background-color: #5555;
+    font-size: 12px;
+    width: 40px;
+    color: #000;
+    cursor: pointer;
+
+}
+.delete{
+    background-color: red;
+    width: 40px;
+    cursor: pointer;
+}
+
+h4{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+button{
+    width: 25%;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px auto;
+    background-color:rgba(5, 163, 29, 0.769);
+}
+
